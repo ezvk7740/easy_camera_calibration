@@ -25,7 +25,7 @@ Config can be edited in > main.py
 ```
 python main.py
 ```
-The script will auto detect chessboards each frame and label them on the display screena  
+The script will auto detect chessboards each frame and label them on the display screen  
 Make sure you have configured `pattern_size` correctly  
 
 Add as many values as you want then press 'q' to escape to calculate the calibration parameters  
