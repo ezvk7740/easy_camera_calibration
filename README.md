@@ -1,4 +1,4 @@
-# Easy_Camera_Calibration
+# Easy Camera Calibration
 A very simple ncurses application to simplify OpenCV camera calibration
 
 Sample Interface
@@ -25,4 +25,9 @@ Config can be edited in `main.py`
 ```
 python main.py
 ```
+the script will auto detect chessboards each frame and label them on the display
+make sure you have configured `pattern_size` correctly 
+
+add as many values as you want then press 'q' to escape to calculate the calibration parameters
+
 note: keyboard input should be aimed at the ncurses terminal not the camera terminal
